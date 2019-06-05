@@ -1,0 +1,42 @@
+{
+  "name": "query-stringify",
+  "version": "1.0.0",
+  "description": "A query stringify tool",
+  "main": "lib/query-stringify.js",
+  "scripts": {
+    "test": "npm run jest",
+    "cov": "jest --coverage",
+    "build": "npm run build:clean && npm run build:babel",
+    "build:clean": "rimraf lib/* dist/*",
+    "build:babel": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yo8568/query-stringify.git"
+  },
+  "keywords": [
+    "query",
+    "stringify",
+    "path",
+    "builder"
+  ],
+  "author": "Kenny Chang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yo8568/query-stringify/issues"
+  },
+  "homepage": "https://github.com/yo8568/query-stringify#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.7.1"
+  }
+}
