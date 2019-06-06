@@ -1,6 +1,6 @@
 # Query Stringify
 
-![build](https://travis-ci.org/yo8568/query-stringify.svg?branch=master)
+![build](https://travis-ci.com/yo8568/query-stringify.svg?branch=master)
 
 A simple tool for combining some query parameters as a entire url string.
 
