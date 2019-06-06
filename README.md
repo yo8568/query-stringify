@@ -7,7 +7,7 @@ A simple tool for combining some query parameters as a entire url string.
 ### Installation
 
 ```bash
-$ npm install query-stringify
+$ npm install @yo8568/query-stringify
 ```
 
 ### Usage

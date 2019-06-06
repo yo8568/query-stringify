@@ -1,5 +1,5 @@
 {
-  "name": "query-stringify",
+  "name": "@yo8568/query-stringify",
   "version": "1.0.0",
   "description": "A query stringify tool",
   "main": "lib/query-stringify.js",
