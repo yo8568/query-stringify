@@ -1,4 +1,4 @@
-# Nine Limit
+# Query Stringify
 
 ![build](https://travis-ci.org/yo8568/query-stringify.svg?branch=master)
 
